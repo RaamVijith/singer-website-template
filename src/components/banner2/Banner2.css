@@ -1,0 +1,81 @@
+.banner2 {
+    background-color: #EA2046;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .banner2-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .paper-plane-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .banner2-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .banner2-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner2-subtext {
+    margin-right: 15px;
+  }
+  
+  .banner2-input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .banner2-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .banner2-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner2-left, .banner2-right {
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+  
+    .banner2-subtext {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .banner2-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
