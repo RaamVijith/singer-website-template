@@ -1,4 +1,5 @@
 # React + Vite
+<img width="450px;" src="https://github.com/RaamVijith/singer-website-template/blob/main/public/Screenshot%202024-08-06%20at%2018-47-06%20Vite%20React.png?raw=true"/>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
